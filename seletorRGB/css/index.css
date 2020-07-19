@@ -1,0 +1,9 @@
+#principalDiv {
+  text-align: center;
+}
+#inputRed,
+#inputGreen,
+#inputBlue {
+  padding: 2px;
+  margin-left: 2px;
+}

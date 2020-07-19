@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Color Selector</title>
+  </head>
+  <body>
+    <div id="principalDiv">
+      <h1>Seletor de cores RGB</h1>
+      <div>
+        <p>
+          Red
+          <input id="inputRed" type="range" min="0" max="255" />
+
+          <input value="128" id="showRed" type="text" readonly disabled />
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Green
+          <input id="inputGreen" type="range" min="0" max="255" />
+
+          <input value="128" id="showGreen" type="text" readonly disabled />
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Blue
+          <input id="inputBlue" type="range" min="0" max="255" />
+
+          <input value="128" id="showBlue" type="text" readonly disabled />
+        </p>
+      </div>
+    </div>
+
+    <div id="colorBox"></div>
+
+    <script defer src="../js/index.js"></script>
+  </body>
+</html>
